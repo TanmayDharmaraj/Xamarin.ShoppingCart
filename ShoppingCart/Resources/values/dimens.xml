@@ -11,5 +11,4 @@
   <dimen name="title_text">18sp</dimen>
   <dimen name="sub_text">14sp</dimen>
   <dimen name="rounded_button_text">28sp</dimen>
-  
 </resources>

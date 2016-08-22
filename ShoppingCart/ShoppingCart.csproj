@@ -94,6 +94,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Adapters\InventoryAdapter.cs" />
+    <Compile Include="Adapters\InventoryViewHolder.cs" />
     <Compile Include="App.cs" />
     <Compile Include="Helpers\Util.cs" />
     <Compile Include="MainActivity.cs" />

@@ -1,0 +1,16 @@
+﻿using ShoppingCart.Core.Interfaces;
+using ShoppingCart.Core.Models;
+using System.Collections.Generic;
+
+namespace ShoppingCart.Core.Services
+{
+    public class InventoryService : IInventoryService
+    {
+        public List<Inventory> GetInventory()
+        {
+            return new List<Inventory>() {
+                new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-mint-bunch1-v-1-pc.png",Title="Fresh Mint Bunch",Cost=14},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-coconut-regular1-v-1-nos.png",Title="Fresh Coconut Regular",Cost=21},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-basket-broccoli-v-500-g.png",Title=" Broccoli",Cost=300},new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-sweet-potato1-v-900-g.png",Title="Fresh Sweet Potato",Cost=58.5},new Inventory(){Image="https://p1.zopnow.com/images/products/140/hypercity-fresh-arvi-roots-v-250-g.png",Title="Fresh Colacasia Arvi Roots",Cost=14.75},new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-broad-beans-papadi1-v-250-g.png",Title="Fresh Broad Beans Avare Chikadi (Papadi)",Cost=24.75},new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-cluster-beans-v-250-g.png",Title="Fresh Cluster Beans",Cost=19.75},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-basket-brinjal-bharta-v-500-g.png",Title="Brinjal Bharta",Cost=26},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-bitter-gourd-v-750-g.png",Title="Fresh Bitter Gourd",Cost=44.25},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-basket-potato-v-1-kg-1.png",Title="Potato",Cost=28},new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-brinjal-kateri1-v-500-g.png",Title="Fresh Brinjal Kateri",Cost=27},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-tinda1-v-250-g-1.png",Title="Fresh Tinda",Cost=21.25},new Inventory(){Image="https://p2.zopnow.com/images/products/140/hypercity-fresh-snake-gourd-v-500-g.png",Title="Fresh Snake Gourd",Cost=22.5},new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-basket-capsicum-red-yellow-packed-v-350-g.png",Title="Capsicum Red Yellow Packed",Cost=128},new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-basket-lady-finger-v-350-g.png",Title="Lady Finger",Cost=19.25},new Inventory(){Image="https://p1.zopnow.com/images/products/140/fresh-basket-tomato-v-500-g.png",Title="Tomato",Cost=21.6},new Inventory(){Image="https://p2.zopnow.com/images/products/140/hypercity-fresh-pointer-gourd-parval-v-500-g.png",Title="Fresh Pointer Gourd (Parval)",Cost=29.5},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-basket-cherry-tomato-red-v-200-g.png",Title="Cherry Tomato Red",Cost=110},new Inventory(){Image="https://p2.zopnow.com/images/products/140/fresh-ridge-gourd-v-500-g.png",Title="Fresh Ridge Gourd",Cost=26.5},new Inventory(){Image="https://p2.zopnow.com/images/products/140/hypercity-fresh-lemon-grass-v-200-g.png",Title="Fresh Lemon Grass",Cost=27}
+            };
+        }
+    }
+}

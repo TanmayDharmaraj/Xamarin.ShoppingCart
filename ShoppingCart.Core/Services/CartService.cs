@@ -1,9 +1,7 @@
-﻿using System;
+﻿using ShoppingCart.Core.Interfaces;
+using ShoppingCart.Core.Models;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ShoppingCart.Core.Models;
 
 namespace ShoppingCart.Core.Services
 {
