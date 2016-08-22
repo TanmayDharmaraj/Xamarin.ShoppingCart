@@ -1586,6 +1586,18 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f05004d
 			public const int notification_subtext_size = 2131034189;
 			
+			// aapt resource value: 0x7f050070
+			public const int rounded_button_size = 2131034224;
+			
+			// aapt resource value: 0x7f050073
+			public const int rounded_button_text = 2131034227;
+			
+			// aapt resource value: 0x7f050072
+			public const int sub_text = 2131034226;
+			
+			// aapt resource value: 0x7f050071
+			public const int title_text = 2131034225;
+			
 			static Dimension()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
@@ -1830,32 +1842,41 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f02004c
 			public const int design_snackbar_background = 2130837580;
 			
-			// aapt resource value: 0x7f020050
-			public const int ic_menu_camera = 2130837584;
-			
-			// aapt resource value: 0x7f020051
-			public const int ic_menu_gallery = 2130837585;
+			// aapt resource value: 0x7f02004d
+			public const int ic_launcher = 2130837581;
 			
 			// aapt resource value: 0x7f020053
-			public const int ic_menu_manage = 2130837587;
-			
-			// aapt resource value: 0x7f020055
-			public const int ic_menu_send = 2130837589;
+			public const int ic_menu_camera = 2130837587;
 			
 			// aapt resource value: 0x7f020054
-			public const int ic_menu_share = 2130837588;
+			public const int ic_menu_gallery = 2130837588;
 			
-			// aapt resource value: 0x7f020052
-			public const int ic_menu_slideshow = 2130837586;
+			// aapt resource value: 0x7f020056
+			public const int ic_menu_manage = 2130837590;
 			
-			// aapt resource value: 0x7f02004d
-			public const int Icon = 2130837581;
+			// aapt resource value: 0x7f020058
+			public const int ic_menu_send = 2130837592;
 			
-			// aapt resource value: 0x7f02004f
-			public const int notification_template_icon_bg = 2130837583;
+			// aapt resource value: 0x7f020057
+			public const int ic_menu_share = 2130837591;
+			
+			// aapt resource value: 0x7f020055
+			public const int ic_menu_slideshow = 2130837589;
 			
 			// aapt resource value: 0x7f02004e
-			public const int side_nav_bar = 2130837582;
+			public const int ic_shopping_cart_white_24dp = 2130837582;
+			
+			// aapt resource value: 0x7f020052
+			public const int notification_template_icon_bg = 2130837586;
+			
+			// aapt resource value: 0x7f02004f
+			public const int placeholder = 2130837583;
+			
+			// aapt resource value: 0x7f020050
+			public const int roundbutton = 2130837584;
+			
+			// aapt resource value: 0x7f020051
+			public const int side_nav_bar = 2130837585;
 			
 			static Drawable()
 			{
@@ -1870,8 +1891,8 @@ namespace ShoppingCart
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f060079
-			public const int action0 = 2131099769;
+			// aapt resource value: 0x7f060078
+			public const int action0 = 2131099768;
 			
 			// aapt resource value: 0x7f06005a
 			public const int action_bar = 2131099738;
@@ -1897,8 +1918,8 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f06005b
 			public const int action_context_bar = 2131099739;
 			
-			// aapt resource value: 0x7f06007d
-			public const int action_divider = 2131099773;
+			// aapt resource value: 0x7f06007c
+			public const int action_divider = 2131099772;
 			
 			// aapt resource value: 0x7f060003
 			public const int action_menu_divider = 2131099651;
@@ -1915,8 +1936,8 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f06003c
 			public const int action_mode_close_button = 2131099708;
 			
-			// aapt resource value: 0x7f06008d
-			public const int action_settings = 2131099789;
+			// aapt resource value: 0x7f060095
+			public const int action_settings = 2131099797;
 			
 			// aapt resource value: 0x7f06003d
 			public const int activity_chooser_view_content = 2131099709;
@@ -1933,11 +1954,20 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f06002a
 			public const int bottom = 2131099690;
 			
+			// aapt resource value: 0x7f06008a
+			public const int btnAdd = 2131099786;
+			
+			// aapt resource value: 0x7f06008e
+			public const int btnAddQuantity = 2131099790;
+			
+			// aapt resource value: 0x7f06008c
+			public const int btnSubtractQuantity = 2131099788;
+			
 			// aapt resource value: 0x7f060044
 			public const int buttonPanel = 2131099716;
 			
-			// aapt resource value: 0x7f06007a
-			public const int cancel_action = 2131099770;
+			// aapt resource value: 0x7f060079
+			public const int cancel_action = 2131099769;
 			
 			// aapt resource value: 0x7f06002b
 			public const int center = 2131099691;
@@ -1951,8 +1981,8 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f060052
 			public const int checkbox = 2131099730;
 			
-			// aapt resource value: 0x7f060080
-			public const int chronometer = 2131099776;
+			// aapt resource value: 0x7f06007f
+			public const int chronometer = 2131099775;
 			
 			// aapt resource value: 0x7f060033
 			public const int clip_horizontal = 2131099699;
@@ -1978,26 +2008,26 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f060040
 			public const int default_activity_button = 2131099712;
 			
-			// aapt resource value: 0x7f06006d
-			public const int design_bottom_sheet = 2131099757;
-			
-			// aapt resource value: 0x7f060074
-			public const int design_menu_item_action_area = 2131099764;
+			// aapt resource value: 0x7f06006c
+			public const int design_bottom_sheet = 2131099756;
 			
 			// aapt resource value: 0x7f060073
-			public const int design_menu_item_action_area_stub = 2131099763;
+			public const int design_menu_item_action_area = 2131099763;
 			
 			// aapt resource value: 0x7f060072
-			public const int design_menu_item_text = 2131099762;
+			public const int design_menu_item_action_area_stub = 2131099762;
 			
 			// aapt resource value: 0x7f060071
-			public const int design_navigation_view = 2131099761;
+			public const int design_menu_item_text = 2131099761;
+			
+			// aapt resource value: 0x7f060070
+			public const int design_navigation_view = 2131099760;
 			
 			// aapt resource value: 0x7f06000e
 			public const int disableHome = 2131099662;
 			
-			// aapt resource value: 0x7f060075
-			public const int drawer_layout = 2131099765;
+			// aapt resource value: 0x7f060074
+			public const int drawer_layout = 2131099764;
 			
 			// aapt resource value: 0x7f06005c
 			public const int edit_query = 2131099740;
@@ -2005,8 +2035,8 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f06001c
 			public const int end = 2131099676;
 			
-			// aapt resource value: 0x7f060085
-			public const int end_padder = 2131099781;
+			// aapt resource value: 0x7f060084
+			public const int end_padder = 2131099780;
 			
 			// aapt resource value: 0x7f060023
 			public const int enterAlways = 2131099683;
@@ -2022,9 +2052,6 @@ namespace ShoppingCart
 			
 			// aapt resource value: 0x7f060051
 			public const int expanded_menu = 2131099729;
-			
-			// aapt resource value: 0x7f06006a
-			public const int fab = 2131099754;
 			
 			// aapt resource value: 0x7f060035
 			public const int fill = 2131099701;
@@ -2053,32 +2080,41 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f06003f
 			public const int image = 2131099711;
 			
-			// aapt resource value: 0x7f060077
-			public const int imageView = 2131099767;
+			// aapt resource value: 0x7f060076
+			public const int imageView = 2131099766;
 			
-			// aapt resource value: 0x7f060084
-			public const int info = 2131099780;
+			// aapt resource value: 0x7f060083
+			public const int info = 2131099779;
 			
 			// aapt resource value: 0x7f060000
 			public const int item_touch_helper_previous_elevation = 2131099648;
 			
+			// aapt resource value: 0x7f06008b
+			public const int layout_quantity = 2131099787;
+			
 			// aapt resource value: 0x7f06002f
 			public const int left = 2131099695;
 			
-			// aapt resource value: 0x7f06007e
-			public const int line1 = 2131099774;
+			// aapt resource value: 0x7f06007d
+			public const int line1 = 2131099773;
 			
-			// aapt resource value: 0x7f060082
-			public const int line3 = 2131099778;
+			// aapt resource value: 0x7f060081
+			public const int line3 = 2131099777;
 			
 			// aapt resource value: 0x7f06000b
 			public const int listMode = 2131099659;
 			
+			// aapt resource value: 0x7f060086
+			public const int list_image = 2131099782;
+			
 			// aapt resource value: 0x7f060041
 			public const int list_item = 2131099713;
 			
-			// aapt resource value: 0x7f06007c
-			public const int media_actions = 2131099772;
+			// aapt resource value: 0x7f06007b
+			public const int media_actions = 2131099771;
+			
+			// aapt resource value: 0x7f060096
+			public const int menu_share = 2131099798;
 			
 			// aapt resource value: 0x7f06001d
 			public const int middle = 2131099677;
@@ -2089,29 +2125,29 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f060016
 			public const int multiply = 2131099670;
 			
-			// aapt resource value: 0x7f060087
-			public const int nav_camera = 2131099783;
+			// aapt resource value: 0x7f06008f
+			public const int nav_camera = 2131099791;
 			
-			// aapt resource value: 0x7f060088
-			public const int nav_gallery = 2131099784;
+			// aapt resource value: 0x7f060090
+			public const int nav_gallery = 2131099792;
 			
-			// aapt resource value: 0x7f06008a
-			public const int nav_manage = 2131099786;
+			// aapt resource value: 0x7f060092
+			public const int nav_manage = 2131099794;
 			
-			// aapt resource value: 0x7f06008c
-			public const int nav_send = 2131099788;
+			// aapt resource value: 0x7f060094
+			public const int nav_send = 2131099796;
 			
-			// aapt resource value: 0x7f06008b
-			public const int nav_share = 2131099787;
+			// aapt resource value: 0x7f060093
+			public const int nav_share = 2131099795;
 			
-			// aapt resource value: 0x7f060089
-			public const int nav_slideshow = 2131099785;
+			// aapt resource value: 0x7f060091
+			public const int nav_slideshow = 2131099793;
 			
-			// aapt resource value: 0x7f060076
-			public const int nav_view = 2131099766;
+			// aapt resource value: 0x7f060075
+			public const int nav_view = 2131099765;
 			
-			// aapt resource value: 0x7f060070
-			public const int navigation_header_container = 2131099760;
+			// aapt resource value: 0x7f06006f
+			public const int navigation_header_container = 2131099759;
 			
 			// aapt resource value: 0x7f060021
 			public const int never = 2131099681;
@@ -2140,8 +2176,8 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f060054
 			public const int radio = 2131099732;
 			
-			// aapt resource value: 0x7f06006b
-			public const int recycler_view = 2131099755;
+			// aapt resource value: 0x7f06006a
+			public const int recycler_view = 2131099754;
 			
 			// aapt resource value: 0x7f060030
 			public const int right = 2131099696;
@@ -2209,11 +2245,11 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f060013
 			public const int showTitle = 2131099667;
 			
-			// aapt resource value: 0x7f06006f
-			public const int snackbar_action = 2131099759;
-			
 			// aapt resource value: 0x7f06006e
-			public const int snackbar_text = 2131099758;
+			public const int snackbar_action = 2131099758;
+			
+			// aapt resource value: 0x7f06006d
+			public const int snackbar_text = 2131099757;
 			
 			// aapt resource value: 0x7f060027
 			public const int snap = 2131099687;
@@ -2236,8 +2272,8 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f060031
 			public const int start = 2131099697;
 			
-			// aapt resource value: 0x7f06007b
-			public const int status_bar_latest_event_content = 2131099771;
+			// aapt resource value: 0x7f06007a
+			public const int status_bar_latest_event_content = 2131099770;
 			
 			// aapt resource value: 0x7f060065
 			public const int submit_area = 2131099749;
@@ -2245,23 +2281,29 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f06000d
 			public const int tabMode = 2131099661;
 			
-			// aapt resource value: 0x7f060083
-			public const int text = 2131099779;
+			// aapt resource value: 0x7f060082
+			public const int text = 2131099778;
 			
-			// aapt resource value: 0x7f060081
-			public const int text2 = 2131099777;
+			// aapt resource value: 0x7f060080
+			public const int text2 = 2131099776;
 			
 			// aapt resource value: 0x7f06004d
 			public const int textSpacerNoButtons = 2131099725;
 			
-			// aapt resource value: 0x7f060078
-			public const int textView = 2131099768;
+			// aapt resource value: 0x7f060077
+			public const int textView = 2131099767;
 			
-			// aapt resource value: 0x7f06007f
-			public const int time = 2131099775;
+			// aapt resource value: 0x7f060085
+			public const int thumbnail = 2131099781;
+			
+			// aapt resource value: 0x7f06007e
+			public const int time = 2131099774;
 			
 			// aapt resource value: 0x7f060043
 			public const int title = 2131099715;
+			
+			// aapt resource value: 0x7f060087
+			public const int title_layout = 2131099783;
 			
 			// aapt resource value: 0x7f060048
 			public const int title_template = 2131099720;
@@ -2275,11 +2317,17 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f060047
 			public const int topPanel = 2131099719;
 			
-			// aapt resource value: 0x7f06006c
-			public const int touch_outside = 2131099756;
+			// aapt resource value: 0x7f06006b
+			public const int touch_outside = 2131099755;
 			
-			// aapt resource value: 0x7f060086
-			public const int txtTitle = 2131099782;
+			// aapt resource value: 0x7f060089
+			public const int txtCost = 2131099785;
+			
+			// aapt resource value: 0x7f06008d
+			public const int txtQuantity = 2131099789;
+			
+			// aapt resource value: 0x7f060088
+			public const int txtTitle = 2131099784;
 			
 			// aapt resource value: 0x7f060009
 			public const int up = 2131099657;
@@ -2537,6 +2585,9 @@ namespace ShoppingCart
 		public partial class String
 		{
 			
+			// aapt resource value: 0x7f07001f
+			public const int Rs = 2131165215;
+			
 			// aapt resource value: 0x7f070000
 			public const int abc_action_bar_home_description = 2131165184;
 			
@@ -2597,6 +2648,9 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f07001a
 			public const int action_settings = 2131165210;
 			
+			// aapt resource value: 0x7f07001b
+			public const int add_button = 2131165211;
+			
 			// aapt resource value: 0x7f070017
 			public const int app_name = 2131165207;
 			
@@ -2609,11 +2663,20 @@ namespace ShoppingCart
 			// aapt resource value: 0x7f070016
 			public const int character_counter_pattern = 2131165206;
 			
+			// aapt resource value: 0x7f07001e
+			public const int default_start_number = 2131165214;
+			
+			// aapt resource value: 0x7f07001c
+			public const int minus = 2131165212;
+			
 			// aapt resource value: 0x7f070019
 			public const int navigation_drawer_close = 2131165209;
 			
 			// aapt resource value: 0x7f070018
 			public const int navigation_drawer_open = 2131165208;
+			
+			// aapt resource value: 0x7f07001d
+			public const int plus = 2131165213;
 			
 			// aapt resource value: 0x7f070013
 			public const int status_bar_notification_info_overflow = 2131165203;

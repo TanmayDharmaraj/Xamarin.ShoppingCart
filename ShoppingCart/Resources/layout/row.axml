@@ -1,10 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/txtTitle"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip">
+  <!--  ListRow Left sied Thumbnail image -->
+  <LinearLayout
+      android:id="@+id/thumbnail"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="3dip"
+      android:layout_alignParentStart="true"
+      android:layout_marginEnd="5dip">
+    <ImageView
+        android:id="@+id/list_image"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:src="@drawable/ic_menu_send" />
+  </LinearLayout>
+  <LinearLayout
+        android:id="@+id/title_layout"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-</LinearLayout>
+        android:layout_marginRight="110dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:orientation="vertical">
+    <TextView
+      android:id="@+id/txtTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignTop="@+id/thumbnail"
+      android:layout_toRightOf="@+id/thumbnail"
+      android:textColor="#040404"
+      android:textSize="@dimen/title_text"
+      android:ellipsize="end"
+      android:maxLines="2"
+      android:singleLine="false"/>
+    <TextView
+        android:id="@+id/txtCost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtTitle"
+        android:textColor="#343434"
+        android:textSize="@dimen/sub_text"
+        android:layout_marginTop="1dip"
+        android:layout_toEndOf="@+id/thumbnail" />
+  </LinearLayout>
+  <Button style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/btnAdd"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:enabled="true" />
+  <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:layout_alignParentEnd="true"
+      android:layout_centerVertical="true"
+      android:id="@+id/layout_quantity">
+    <Button
+        android:id="@+id/btnSubtractQuantity"
+        android:layout_width="@dimen/rounded_button_size"
+        android:layout_height="@dimen/rounded_button_size"
+        android:background="@drawable/roundbutton"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/minus"
+        android:textSize="@dimen/rounded_button_text"
+        android:textColor="#fff"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtQuantity"
+        android:text="1"
+        android:textSize="24sp"
+        android:layout_margin="5dp"/>
+    <Button
+        android:id="@+id/btnAddQuantity"
+        android:layout_width="@dimen/rounded_button_size"
+        android:layout_height="@dimen/rounded_button_size"
+        android:background="@drawable/roundbutton"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/plus"
+        android:textSize="@dimen/rounded_button_text"
+        android:textColor="#fff"
+        android:layout_margin="5dp"/>
+  </LinearLayout>
+</RelativeLayout>

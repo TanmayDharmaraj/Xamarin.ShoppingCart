@@ -6,4 +6,9 @@
       android:orderInCategory="100"
       android:title="@string/action_settings"
       app:showAsAction="never" />
+  <item
+      android:id="@+id/menu_share"
+      android:icon="@drawable/ic_shopping_cart_white_24dp"
+      app:showAsAction="ifRoom"
+      android:title="Cart" />
 </menu>
