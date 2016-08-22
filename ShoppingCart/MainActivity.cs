@@ -14,7 +14,7 @@ using System.Collections.Generic;
 
 namespace ShoppingCart
 {
-    [Activity(Label = "Farm Fresh", MainLauncher = true, Icon = "@drawable/ic_launcher", Theme = "@style/AppTheme")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/ic_launcher", Theme = "@style/AppTheme")]
     public class MainActivity : AppCompatActivity
     {
         private RecyclerView _RecylerView;

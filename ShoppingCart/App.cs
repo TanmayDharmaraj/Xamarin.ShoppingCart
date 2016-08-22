@@ -8,7 +8,7 @@ using System;
 
 namespace ShoppingCart
 {
-    [Application(Icon = "@drawable/ic_launcher", Label = "Farm Fresh")]
+    [Application(Icon = "@drawable/ic_launcher", Label = "@string/app_name")]
     public class App : Application
     {
         public static IContainer Container { get; set; }
